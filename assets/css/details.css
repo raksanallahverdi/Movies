@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/AdobeStock_129901152_440558_reduced.jpg);
+}
+
+.my_image-wrapper {
+    position: absolute;
+    top: -60px;
+    width: 300px;
+    height: 400px;
+    object-fit: contain;
+}
+
+.my_image-wrapper img {
+
+    object-fit: contain;
+    width: 100%;
+}
+
+.contents h2 {
+    font-size: 32px;
+}
+
+.contents {
+    position: absolute;
+    right: 1%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    color: rgba(255, 255, 255, 0.79);
+    gap: 20px;
+    padding: 10px 40px;
+}
+
+p {
+    width: 100%;
+}
+
+.movie_card {
+    position: relative;
+    padding: 30px;
+
+    display: flex;
+}
+
+.movie-wrapper {
+    margin: 120px auto;
+    width: 80%;
+    height: 400px;
+    background-image: linear-gradient(-180deg, rgba(2, 29, 53, 0.693), rgb(2, 29, 53));
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.4) 20px 20px 20px 2px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}

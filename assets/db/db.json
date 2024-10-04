@@ -1,0 +1,228 @@
+{
+  "movies": [
+    {
+      "name": "Dunkirk",
+      "releaseYear": " 2018",
+      "genre": " War",
+      "imdb": " 8",
+      "imageSrc": "https://rlterryreelview.com/wp-content/uploads/2017/07/dunkirk1.jpg",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "name": "Oldboy",
+      "releaseYear": 2003,
+      "genre": "Action",
+      "imdb": 8.4,
+      "imageSrc": "https://m.media-amazon.com/images/M/MV5BMTI3NTQyMzU5M15BMl5BanBnXkFtZTcwMTM2MjgyMQ@@._V1_.jpg"
+    },
+    {
+      "name": "Gone Girl",
+      "releaseYear": " 2014",
+      "genre": " Mystery",
+      "imdb": " 8.2",
+      "imageSrc": "https://geekymythology.wordpress.com/wp-content/uploads/2015/01/gone-girl.jpg",
+      "id": "3"
+    },
+    {
+      "id": "4",
+      "name": "Green Mile",
+      "releaseYear": 1999,
+      "genre": "Drama",
+      "imdb": 8.6,
+      "imageSrc": "https://play-lh.googleusercontent.com/hZuesjSWMLsJK9UdfKut2LM4fVk7bfMoaGaRMt6gDR5mJSjv0AlbBUnR7PY0oBkzM1j5eoE9csuESEWzzNY"
+    },
+    {
+      "id": "5",
+      "name": "Inception",
+      "releaseYear": 2010,
+      "genre": "Sci-Fi",
+      "imdb": 8.8,
+      "imageSrc": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Parasite",
+      "releaseYear": 2019,
+      "genre": "Thriller",
+      "imdb": 8.6,
+      "imageSrc": "https://play-lh.googleusercontent.com/bd74_5pOTSmJmdY6-vhkHiuh7Q19-SImDevNhkLPRuWdRvikC2RzonkyznZ29Vs9l9QYg1FO6a2ixIltHIw"
+    },
+    {
+      "id": "7",
+      "name": "Up in the Air",
+      "releaseYear": 2009,
+      "genre": "Drama",
+      "imdb": 7.4,
+      "imageSrc": "https://assets.scriptslug.com/live/img/posters/up-in-the-air-2009.jpg?utime=20240519142252"
+    },
+    {
+      "id": "8",
+      "name": "Avatar",
+      "releaseYear": 2009,
+      "genre": "Sci-Fi",
+      "imdb": 7.8,
+      "imageSrc": "https://lumiere-a.akamaihd.net/v1/images/avatar_800x1200_208c9665.jpeg?region=0%2C0%2C800%2C1200"
+    },
+    {
+      "id": "9",
+      "name": "Super 8",
+      "releaseYear": 2011,
+      "genre": "Sci-Fi",
+      "imdb": 7,
+      "imageSrc": "https://m.media-amazon.com/images/I/91PNs9WTkwL._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+      "id": "10",
+      "name": "Prisoners",
+      "releaseYear": 2013,
+      "genre": "Thriller",
+      "imdb": 8.1,
+      "imageSrc": "https://m.media-amazon.com/images/M/MV5BMTg0NTIzMjQ1NV5BMl5BanBnXkFtZTcwNDc3MzM5OQ@@._V1_.jpg"
+    },
+    {
+      "id": "11",
+      "name": "Whiplash",
+      "releaseYear": 2014,
+      "genre": "Drama",
+      "imdb": 8.5,
+      "imageSrc": "https://bloximages.newyork1.vip.townnews.com/nola.com/content/tncms/assets/v3/editorial/f/ba/fba49345-147b-5d5f-b7bf-7509fdaf7a71/5d1640044360b.image.jpg?resize=1024%2C1536"
+    },
+    {
+      "id": "12",
+      "name": "Memento",
+      "releaseYear": 2000,
+      "genre": "Thriller",
+      "imdb": 8.4,
+      "imageSrc": "https://images.onemileposter.com/Movie-Poster/Memento_y2000---Mid-Century-Modern-Style/memento-movie-poster-modern-wall-art-4.jpg"
+    },
+    {
+      "id": "13",
+      "name": "The Chaser",
+      "releaseYear": 2008,
+      "genre": "Thriller",
+      "imdb": 7.9,
+      "imageSrc": "https://resizing.flixster.com/QGJnfPZt2dq4b9TSYDHH--zcAqo=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzgwODAxODIwLTM2ZDktNDY1My1iMzdjLTQ3YjBlNWFhNDlhNi53ZWJw"
+    },
+    {
+      "id": "14",
+      "name": "Soul",
+      "releaseYear": 2020,
+      "genre": "Animation",
+      "imdb": 8,
+      "imageSrc": "https://luuxmovie.com/wp-content/uploads/2022/05/SOUL-Disney-Pixar-DVD-2020-01.png"
+    },
+    {
+      "name": "Gladiator",
+      "releaseYear": " 2001",
+      "genre": " Actionn",
+      "imdb": " 8.9",
+      "imageSrc": "https://www.thesun.co.uk/wp-content/uploads/2023/01/c7272c63-5c31-410f-b88f-a5d13d00a311.jpg?strip=all&w=728",
+      "id": "15"
+    },
+    {
+      "id": "16",
+      "name": "Coco",
+      "releaseYear": 2017,
+      "genre": "Animation",
+      "imdb": 8.4,
+      "imageSrc": "https://cdn.kinocheck.com/i/2xkmzmw9hb.jpg"
+    },
+    {
+      "id": "17",
+      "name": "Joker",
+      "releaseYear": 2008,
+      "genre": "action",
+      "imdb": 5.5,
+      "imageSrc": "https://rukminim2.flixcart.com/image/850/1000/ksqeky80/poster/t/b/d/medium-joker-hd-poster-asstore-jkr2-original-imag68mucrv8upqb.jpeg?q=90&crop=false"
+    },
+    {
+      "id": "18",
+      "name": "Raksana",
+      "releaseYear": 2022,
+      "genre": "fantastic",
+      "imdb": 5.5,
+      "imageSrc": "https://img.freepik.com/free-vector/cinema-realistic-poster-with-illuminated-bucket-popcorn-drink-3d-glasses-reel-tickets-blue-background-with-tapes-vector-illustration_1284-77070.jpg"
+    },
+    {
+      "id": "19",
+      "name": "The Dark Knight",
+      "releaseYear": 2008,
+      "genre": "Action",
+      "imdb": 9,
+      "imageSrc": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_.jpg"
+    },
+    {
+      "id": "20",
+      "name": "Mad Max: Fury Road",
+      "releaseYear": 2015,
+      "genre": "Action",
+      "imdb": 8.1,
+      "imageSrc": "https://m.media-amazon.com/images/M/MV5BZDRkODJhOTgtOTc1OC00NTgzLTk4NjItNDgxZDY4YjlmNDY2XkEyXkFqcGc@._V1_.jpg"
+    },
+    {
+      "id": "21",
+      "name": "Interstellar",
+      "releaseYear": 2014,
+      "genre": "Sci-Fi",
+      "imdb": 8.6,
+      "imageSrc": "https://m.media-amazon.com/images/M/MV5BYzdjMDAxZGItMjI2My00ODA1LTlkNzItOWFjMDU5ZDJlYWY3XkEyXkFqcGc@._V1_.jpg"
+    },
+    {
+      "id": "22",
+      "name": "Shutter Island",
+      "releaseYear": 2010,
+      "genre": "Thriller",
+      "imdb": 8.2,
+      "imageSrc": "https://play-lh.googleusercontent.com/jalongU-EtEyIVLHphasHtuoJML1ROTMFUXizvzGQ_zq2B0JBZYkcVLC7FUq61f9Yll9ClMzHfuXNUNx3w"
+    },
+    {
+      "id": "23",
+      "name": "The Grand Budapest Hotel",
+      "releaseYear": 2014,
+      "genre": "Comedy",
+      "imdb": 8.1,
+      "imageSrc": "https://m.media-amazon.com/images/M/MV5BMzM5NjUxOTEyMl5BMl5BanBnXkFtZTgwNjEyMDM0MDE@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "id": "24",
+      "name": "La La Land",
+      "releaseYear": 2016,
+      "genre": "Musical",
+      "imdb": 8,
+      "imageSrc": "https://m.media-amazon.com/images/M/MV5BMzUzNDM2NzM2MV5BMl5BanBnXkFtZTgwNTM3NTg4OTE@._V1_.jpg"
+    },
+    {
+      "id": "25",
+      "name": "Her",
+      "releaseYear": 2013,
+      "genre": "Romance",
+      "imdb": 8,
+      "imageSrc": "https://upload.wikimedia.org/wikipedia/en/4/44/Her2013Poster.jpg"
+    },
+    {
+      "id": "26",
+      "name": "The Social Network",
+      "releaseYear": 2010,
+      "genre": "Biography",
+      "imdb": 7.7,
+      "imageSrc": "https://img4.hulu.com/user/v3/artwork/2fdf14e9-68f8-49fc-abe4-240ed9211e8d?base_image_bucket_name=image_manager&base_image=4016d03b-6a94-427a-8f8c-5bd340dcd45d&size=458x687&format=webp"
+    },
+    {
+      "id": "27",
+      "name": "Fight Club",
+      "releaseYear": 1999,
+      "genre": "Drama",
+      "imdb": 8.8,
+      "imageSrc": "https://m.media-amazon.com/images/M/MV5BOTgyOGQ1NDItNGU3Ny00MjU3LTg2YWEtNmEyYjBiMjI1Y2M5XkEyXkFqcGc@._V1_.jpg"
+    },
+    {
+      "id": "28",
+      "name": "The Revenant",
+      "releaseYear": 2015,
+      "genre": "Adventure",
+      "imdb": 8,
+      "imageSrc": "https://m.media-amazon.com/images/M/MV5BYTgwNmQzZDctMjNmOS00OTExLTkwM2UtNzJmOTJhODFjOTdlXkEyXkFqcGc@._V1_.jpg"
+    }
+  ]
+}

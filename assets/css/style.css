@@ -1,0 +1,341 @@
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper {
+    width: 100%;
+    height: 300px;
+    margin: 20px auto;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.section2 {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom right;
+    background-image: url(../images/360_F_296692203_k4lOpOt8mAcYpKzicNmJTpnsE9ZdwyHX.jpg);
+    padding-bottom: 90px;
+}
+
+body {
+    padding-bottom: 90px;
+}
+
+button.addMovie {
+    display: flex;
+    position: absolute;
+    top: 85px;
+    right: 170px;
+    padding: 7px 40px;
+    font-size: 17px;
+}
+
+.button-42 {
+    background-color: initial;
+    background-image: linear-gradient(-180deg, #d26f35, #77320a);
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Inter, -apple-system, system-ui, Roboto, "Helvetica Neue", Arial, sans-serif;
+    pointer-events: auto;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: top;
+    white-space: nowrap;
+    transition: box-shadow .2s;
+}
+
+.button-42:hover {
+    box-shadow: rgba(253, 76, 0, 0.5) 0 3px 8px;
+}
+
+
+.section1 h1 {
+    color: rgb(211, 111, 18);
+    font-family: "PT Sans", sans-serif;
+    font-size: 90px;
+    letter-spacing: 6px;
+    padding-top: 70px;
+    text-align: center;
+
+
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+nav {
+    display: flex;
+    gap: 25px;
+
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.section1 {
+    background-position: center;
+    height: 90vh;
+    background-image: url(../images/banner-05.jpg);
+    background-size: cover;
+}
+
+.cards-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 90px;
+    column-gap: 20px;
+    padding: 90px 90px 40px 90px;
+}
+
+.page_title {
+    color: rgb(226, 181, 138);
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    bottom: 32px;
+    line-height: 44px;
+    font-size: 60px;
+
+    font-family: "Splash", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+
+}
+
+#upper {
+    padding-right: 145px;
+}
+
+#bottom {
+    padding-left: 110px;
+}
+
+.wished {
+    top: 8px;
+    right: 13px;
+    font-size: 25px;
+    position: absolute;
+    color: white;
+}
+
+.fa-pen-to-square {
+    position: absolute;
+    top: 40px;
+    font-size: 22px;
+    right: 14px;
+    color: white;
+}
+
+.card {
+    box-shadow: rgba(0, 0, 0, 0.4) 6px 2px 9px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    text-align: center;
+    height: 77vh;
+    padding-bottom: 60px;
+    background-color: rgb(237, 234, 234);
+    width: 22%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.card:hover {
+    transform: scale(1.08);
+    transition: 0.5s;
+}
+
+.card h2 {
+    color: #1f1b0f;
+    text-shadow: 1px 2px 0px #787352, 1px 1px 0px #5c5f72;
+    font: 80px 'BazarMedium';
+    letter-spacing: 3px;
+    font-size: 25px;
+    padding: 8px 0;
+
+}
+
+.card h3 {
+    padding: 2px 0;
+}
+
+.card button {
+    --b: 3px;
+    /* border thickness */
+    --s: .45em;
+    /* size of the corner */
+    --color: #373B44;
+
+    padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+    color: var(--color);
+    --_p: var(--s);
+    background:
+        conic-gradient(from 90deg at var(--b) var(--b), #0000 90deg, var(--color) 0) var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+    transition: .3s linear, color 0s, background-color 0s;
+    outline: var(--b) solid #0000;
+    outline-offset: .6em;
+    font-size: 16px;
+
+    border: 0;
+
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.card button:hover,
+.card button:focus-visible {
+    --_p: 0px;
+    outline-color: var(--color);
+    outline-offset: .05em;
+}
+
+.card button:active {
+    background: var(--color);
+    color: #fff;
+
+}
+
+.card .image-wrapper {
+    height: 70%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card .image-wrapper img {
+    object-fit: cover;
+    object-position: center center;
+    width: 100%;
+    height: 100%;
+
+}
+
+.searchForm {
+
+    position: absolute;
+    left: 22%;
+    width: 50%;
+
+
+}
+
+.searchForm button {
+    height: 30px;
+    width: 30px;
+    background-image: linear-gradient(-180deg, #d26f35, #77320a);
+    border: none;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.554);
+}
+
+.searchForm input {
+    background-image: linear-gradient(-180deg, #d26f35, #77320a);
+    border: none;
+    height: 30px;
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.554);
+    color: white;
+
+}
+
+.searchForm input::placeholder {
+    color: white;
+    font-size: 16px;
+    padding: 0 10px;
+}
+.displayNone{
+    display: none !important;
+}
+.displayFlex{
+    display: flex;
+}
+
+.modal {
+    position: fixed;
+    top: 10%;
+    left: 40%;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    gap: 20px;
+    padding: 30px;
+    z-index: 99;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(93, 40, 3, 0.759);
+}
+.modal input {
+   width: 300px;
+   height: 30px;
+}
+.modal i{
+    font-size: 26px;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+   
+}
+.modal button{
+    background-image: linear-gradient(-180deg, #d26f35, #77320a);
+    border: none;
+    color: white;
+    height: 30px;
+}
