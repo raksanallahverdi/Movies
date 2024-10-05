@@ -1,4 +1,4 @@
-const url = "http://localhost:3000/movies";
+const url = "https://json-server-theta-pink-37.vercel.app/api/movies";
 import { getAllData } from "./helpers.js";
 const success=document.querySelector(".success-alert");
 success.classList.add("displayNone");

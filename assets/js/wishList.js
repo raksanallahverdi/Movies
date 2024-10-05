@@ -1,4 +1,4 @@
-const url = "http://localhost:3000/movies";
+const url = "https://json-server-theta-pink-37.vercel.app/api/movies";
 import {getAllData} from "./helpers.js";
 let localCards = JSON.parse(localStorage.getItem("card")) || [];
 const cardsContainer=document.querySelector(".cardsWrapper")

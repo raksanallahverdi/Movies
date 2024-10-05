@@ -1,4 +1,4 @@
-const url = "http://localhost:3000/movies";
+const url = "https://json-server-theta-pink-37.vercel.app/api/movies";
 let localCards = JSON.parse(localStorage.getItem("card")) || [];
 const searchInput = document.querySelector(".searchForm input");
 const cardsContainer=document.querySelector(".cards-wrapper")
@@ -111,10 +111,15 @@ document.addEventListener("DOMContentLoaded",async()=>{
             imageSrc: document.getElementById("editImageSrc").value,
         };
 
-        await updateDataById(url, movieId, updatedMovie);
+        await updateDataById(url, movieId, updatedMovie)
+        .then(() => {
+          console.log("Movie updated successfully");
+        })
+        .catch((error) => {
+          console.error("Failed to update movie:", error);
+        });
 
         newDiv.remove();
-        window.location.reload(); 
   
     })
   })

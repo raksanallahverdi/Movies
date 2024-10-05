@@ -54,6 +54,7 @@ export async function updateDataById(url, id, updatedData) {
     try {
         const response = await axios.put(`${url}/${id}`, updatedData);
         console.log("Update STATUS CODE: ", response.status);
+        console.log("Updated Data Response: ", response.data);
         return response.data;
     } catch (error) {
         console.log(error.message);
